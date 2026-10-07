@@ -1,14 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FF6600;
+  --color-primary-hover: #FF7722;
+  --color-dark: #1A1A1A;
+  --color-gray-text: #464646;
+  --color-gray-bg: #F8F8F8;
+  --color-border: #ECECEC;
+}
 
 :root {
-  --background: #000000;
-  --foreground: #ffffff;
+  --background: #ffffff;
+  --foreground: #1A1A1A;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 }
