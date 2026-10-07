@@ -116,7 +116,7 @@ export default function Home() {
             <div className="w-6 h-6 bg-[#F60] rounded flex items-center justify-center font-bold text-white text-xs">C</div>
             <span className="font-bold tracking-tight text-[#1A1A1A]">Crow</span>
           </div>
-          <p className="text-[#9F9F9F] text-sm font-medium">© {new Date().getFullYear()} Crow. All rights reserved.</p>
+          <p className="text-[#9F9F9F] text-sm font-medium">© 2026 Crow. All rights reserved.</p>
         </div>
       </footer>
     </div>
